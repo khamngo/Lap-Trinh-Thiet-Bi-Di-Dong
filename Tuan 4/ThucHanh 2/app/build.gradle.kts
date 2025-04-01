@@ -40,7 +40,9 @@ android {
 }
 
 dependencies {
-
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
+    implementation ("com.google.accompanist:accompanist-systemuicontroller:0.30.1")
+    implementation("androidx.navigation:navigation-compose:2.8.9")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
